@@ -2,107 +2,89 @@
 /* You can only modify the CSS file */
 
 
-.container {
-    padding: 30px;
+*{
+    margin: 0;
+    padding: 0;
     font-family: poppins;
 }
 
-.navbar-container {
+body {
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 85px;
+    background: black;
 }
 
-.navbar-container img {
-    height: 40px;
-    cursor: pointer;
-    transition: .3s ease-in;
+.navbar img {
+    border-right: 2px solid rgb(143, 141, 141);
+    padding-right: 30px;
+    height: 45px;
 }
 
-.navbar-container img:hover {
-    height: 43px;
-}
-
-.navbar-container .list {
+.list {
     display: flex;
     list-style: none;
-    margin-left: -580px;
+    margin-left: -500px;
+    margin-right: 90px;
 }
 
-.navbar-container .list-item {
-    margin-left: 10px;
-    color: rgb(138, 135, 135);
-    cursor: pointer;
+.list-item {
+    margin-left: 40px;
 }
 
-.navbar-container .list-item::after {
-    content: "";
-    height: 3px;
-    width: 0%;
-    background: #7933F4;
-    display: block;
-    transition: 0.3s ease;
-}
-
-.navbar-container .list-item:hover::after {
-    width: 100%;
-}
-
-
-.list-item:nth-child(1) {
-    font-weight: 700;
-    color: black;
-}
-
-.navbar-container .nav-button {
+.button-small {
     outline: none;
     border: none;
-    padding: 15px;
-    border-radius: 12px;
-    color: white;
-    background: #7933F4;
-    cursor: pointer;
-    box-shadow: 2px 2px 12px rgb(4, 4, 249);
-    transition: 0.3s ease-in-out;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #BA0CC5;
 }
 
-.navbar-container .nav-button:hover {
-    padding: 17px;
-}
 
-.banner-container {
+section:nth-child(2) {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.heading-text {
-    font-size: 75px;
-    text-align: left;
-    color: #3C2F60;
+.hero {
+    height: 600px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
 }
 
-.heading-text span {
-    color: #5955B3;
-}
-
-.description {
-    text-align: left;
-    font-size: 20px;
-    color: rgb(138, 135, 135);
-}
-
-.btn {
-    background-color: #7933F4;
-    outline: none;
+.hero-heading {
     color: white;
-    padding: 20px 30px;
-    border: none;
-    border-radius: 12px;;
-    box-shadow: 2px 2px 12px rgb(4, 4, 249);
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
+    font-size: 65px;
+    text-align: center;
 }
 
-.btn:hover {
-    padding: 22px 32px;
+.hero-description {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.button-large {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #BA0CC5;
 }
