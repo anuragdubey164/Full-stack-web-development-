@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, pink, rgb(224, 118, 136));
+}
+
+table {
+    /* backdrop-filter: blur(60px); */
+    background: linear-gradient(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 15px rgb(134, 34, 51);
+}
+
+.monday {
+    background: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px yellow;
+    transition: 0.5s all ease;
+}
+
+/* .tuesday {
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px yellow;
+} */
+
+
+.monday:hover {
+    width: 60px;
+    height: 60px;
+    background: orange;
+}
