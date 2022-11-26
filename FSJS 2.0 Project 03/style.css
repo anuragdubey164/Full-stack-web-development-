@@ -1,0 +1,142 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Orbitron;
+}
+
+.navbar-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-container img {
+    height: 35px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.list-item {
+    margin-left: 28px;
+    font-size: 23px;
+}
+
+.list-item:nth-child(1) {
+    font-weight: 800;   
+}
+
+.list-item:nth-child(1)::after {
+    content: "";
+    display: block;
+    position: relative;
+    left: 18px;
+    text-align: center;
+    height: 3px;
+    width: 60%;
+    background: black;
+}
+
+.button-group {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group svg {
+    height: 25px;
+}
+
+.nav-button {
+    border: 2px solid black;
+    padding: 10px 45px;
+    background: #ffffff;
+    border-radius: 13px;
+}
+
+.hero-container {
+    padding-top: 55px;
+    display: flex;
+}
+
+.person-hero-image {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    height: 450px;
+}
+
+.square {
+    position: relative;
+    top: 180px;
+    left: 140px;
+}
+
+.globe {
+    position: relative;
+    left: 200px;
+}
+
+.star:nth-child(2) img {
+    position: relative;
+    left: 900px;
+    top: 40px;
+}
+
+.star:nth-child(3) img {
+    position: relative;
+    top: 550px;
+    left: 290px;
+}
+
+.hero-container-right {
+    padding: 100px;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    place-items: center;
+    gap: 25px;
+}
+
+.hero-heading {
+    font-size: 50px;
+    grid-row: 1/3;
+}
+
+.hero-description {
+    font-size: 15px;
+    text-align: center;
+}
+
+.button-email {
+    outline: none;
+    border: 2p solid black;
+    background: #ffffff;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+.button-join {
+    outline: none;
+    border: none;
+    background: #000000;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px ;
+}
+
+.contact-heading {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(114, 111, 111);
+}
+
+.icons img {    
+   height: 35px;
+   margin-top: 20px;
+}
