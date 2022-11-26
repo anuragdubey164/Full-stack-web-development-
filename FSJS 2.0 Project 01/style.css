@@ -1,0 +1,108 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+.container {
+    padding: 30px;
+    font-family: poppins;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-container img {
+    height: 40px;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.navbar-container img:hover {
+    height: 43px;
+}
+
+.navbar-container .list {
+    display: flex;
+    list-style: none;
+    margin-left: -580px;
+}
+
+.navbar-container .list-item {
+    margin-left: 10px;
+    color: rgb(138, 135, 135);
+    cursor: pointer;
+}
+
+.navbar-container .list-item::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #7933F4;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.navbar-container .list-item:hover::after {
+    width: 100%;
+}
+
+
+.list-item:nth-child(1) {
+    font-weight: 700;
+    color: black;
+}
+
+.navbar-container .nav-button {
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    color: white;
+    background: #7933F4;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgb(4, 4, 249);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-container .nav-button:hover {
+    padding: 17px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.heading-text {
+    font-size: 75px;
+    text-align: left;
+    color: #3C2F60;
+}
+
+.heading-text span {
+    color: #5955B3;
+}
+
+.description {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(138, 135, 135);
+}
+
+.btn {
+    background-color: #7933F4;
+    outline: none;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 12px;;
+    box-shadow: 2px 2px 12px rgb(4, 4, 249);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    padding: 22px 32px;
+}
