@@ -1,0 +1,90 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 85px;
+    background: black;
+}
+
+.navbar img {
+    border-right: 2px solid rgb(143, 141, 141);
+    padding-right: 30px;
+    height: 45px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    margin-left: -500px;
+    margin-right: 90px;
+}
+
+.list-item {
+    margin-left: 40px;
+}
+
+.button-small {
+    outline: none;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #BA0CC5;
+}
+
+
+section:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    height: 600px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+
+.hero-heading {
+    color: white;
+    font-size: 65px;
+    text-align: center;
+}
+
+.hero-description {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.button-large {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #BA0CC5;
+}
